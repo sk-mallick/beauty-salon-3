@@ -1,1 +1,1 @@
-# beauty-salon-3
+# beauty-salon

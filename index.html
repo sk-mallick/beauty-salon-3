@@ -1,0 +1,2188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sunita Beauty Salon - Your Beauty Destination</title>
+		<!-- Bootstrap 5 CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/header/style.css">
+		<link rel="stylesheet" href="css/index/index-courses.css">
+		<link rel="stylesheet" href="css/index/trending-slider.css">
+		<!-- AOS Animation -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- Lightbox CSS -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+			rel="stylesheet">
+		<!-- Swiper CSS -->
+		<link rel="stylesheet"
+			href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+		<!-- Font Awesome -->
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<!-- IonIcons -->
+		<script type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<!-- jQuery (needed for Lightbox) -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<!-- SweetAlert2 -->
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<!-- Typed.js -->
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	</head>
+	<body>
+		<!-- header -->
+		<nav>
+			<input type="checkbox" id="sidebar-active">
+			<label id="overlay" for="sidebar-active"></label>
+			<label for="sidebar-active" class="open-sidebar-button">
+				<img src="./img/icon.png" alt>
+				<svg xmlns="http://www.w3.org/2000/svg" height="32px"
+					viewBox="0 -960 960 960" width="40px" fill="#000000">
+					<path
+						d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+				</svg>
+			</label>
+			<div class="links-container">
+				<label for="sidebar-active" class="close-sidebar-button">
+					<svg xmlns="http://www.w3.org/2000/svg" height="32px"
+						viewBox="0 -960 960 960" width="40px"
+						fill="#000000">
+						<path
+							d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z" />
+					</svg>
+				</label>
+				<img src="./img/icon.png" alt class="icon">
+				<a href="index.html" class="home-link">Home</a>
+				<a href="about.html" class>About</a>
+				<a href="services.html" class>Services</a>
+				<a href="courses.html" class>Courses</a>
+				<a href="contact.html" class>Contact</a>
+			</div>
+		</nav>
+		<!-- Hero Section -->
+		<section class="hero-section">
+			<video class="video-background" autoplay loop muted playsinline>
+				<source
+					src="https://assets.mixkit.co/videos/preview/mixkit-woman-getting-a-facial-treatment-at-spa-salon-4787-large.mp4"
+					type="video/mp4">
+			</video>
+			<div class="hero-overlay"></div>
+			<div class="container">
+				<div class="hero-content text-white">
+					<span class="hero-subtitle" data-aos="fade-up"
+						data-aos-delay="200">Welcome to Sunita Beauty
+					Salon</span>
+					<h1 class="hero-title" data-aos="fade-up"
+						data-aos-delay="400">Transform Your Beauty <br>with
+						<span class="typed-text"></span>
+					</h1>
+					<p class="hero-text" data-aos="fade-up"
+						data-aos-delay="600">Experience the perfect blend of
+						traditional beauty wisdom and modern techniques. Our
+						expert beauticians are here to enhance your natural
+						beauty and boost your confidence.
+					</p>
+					<!-- Update the hero section buttons -->
+					<div class="hero-buttons" data-aos="fade-up"
+						data-aos-delay="800">
+						<button class="btn btn-hero btn-primary" onclick="window.location.href='book.html'">Book Appointment</button>
+						<a href="services.html"
+							class="btn btn-hero btn-outline-light">Explore
+						Services</a>
+					</div>
+				</div>
+			</div>
+			<div class="scroll-indicator" onclick="smoothScroll()">
+				<div class="mouse"></div>
+				<span>Scroll Down</span>
+			</div>
+		</section>
+
+		<!-- About Preview -->
+		<section class="about-preview py-5" data-aos="fade-up">
+			<div class="container section-alt odd">
+				<div class="row align-items-center">
+					<div class="col-lg-6 mb-4 mb-lg-0">
+						<div class="about-content">
+							<h6
+								class="text-primary text-uppercase fw-bold mb-2">Welcome
+								to
+							</h6>
+							<h2 class="display-4 fw-bold mb-4">Sunita Beauty
+								Salon
+							</h2>
+							<p class="lead mb-4">With over a decade of
+								experience, we've been transforming lives
+								through our premium beauty services and
+								professional training programs. Our commitment
+								to excellence and customer satisfaction makes us
+								the preferred choice for all your beauty
+								needs.
+							</p>
+							<div class="about-stats mb-4">
+								<div class="row g-3">
+									<div class="col-6">
+										<div class="stat-box">
+											<h3 class="stat-number"
+												data-target="15">15+</h3>
+											<p class="stat-label">Years
+												Experience
+											</p>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="stat-box">
+											<h3 class="stat-number"
+												data-target="1500">1500+</h3>
+											<p class="stat-label">Happy
+												Clients
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="about.html"
+								class="btn btn-primary btn-lg">Learn More About
+							Us</a>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="about-image">
+							<img src="img/courses/courses-1.png" alt="About Us"
+								class="img-fluid rounded-3">
+							<div class="ribbon">
+								15 Years of Excellence
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Success Modal -->
+		<div class="booking-modal" id="successModal">
+			<div class="booking-container">
+				<div class="booking-success">
+					<div class="success-icon">
+						<i class="fas fa-check"></i>
+					</div>
+					<h3>Booking Confirmed!</h3>
+					<p>Your appointment has been successfully scheduled. We'll
+						send you a confirmation email shortly.
+					</p>
+					<button type="button" class="btn-book"
+						onclick="closeSuccessModal()">
+					Done
+					<i class="fas fa-check-circle"></i>
+					</button>
+				</div>
+			</div>
+		</div> -->
+
+
+		<!-- Featured Services -->
+		<section id="tranding">
+			<div class="container section-alt even">
+				<div class="section-header text-center mb-5">
+					<h6 class="text-primary text-uppercase fw-bold mb-2">Our
+						Expertise
+					</h6>
+					<h2 class="display-5 fw-bold mb-3">Featured Services</h2>
+					<p class="lead text-muted mt-3">Experience our most popular
+						beauty treatments
+					</p>
+				</div>
+				<div class="swiper tranding-slider">
+					<div class="swiper-wrapper">
+						<!-- Service 1 -->
+						<div class="swiper-slide">
+							<div class="service-card">
+								<div class="service-card-image">
+									<img src="img/courses/courses-1.png"
+										alt="Bridal Makeup">
+								</div>
+								<div class="service-card-body">
+									<div class="service-header">
+										<div class="service-icon">
+											<i class="fas fa-magic"></i>
+										</div>
+										<h3 class="service-title">Bridal
+											Makeup
+										</h3>
+									</div>
+									<p class="service-description">Perfect
+										bridal makeup for your special day.
+									</p>
+									<ul class="service-features">
+										<li>Professional Bridal Look</li>
+										<li>Long-lasting Makeup</li>
+										<li>Touch-up Kit Included</li>
+									</ul>
+									<div class="service-price">
+										<span class="price">₹2,999</span>
+										<a href="#" class="book-now"
+											onclick="openBookingModal(); return false;">
+										Book Now <i
+											class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Service 2 -->
+						<div class="swiper-slide">
+							<div class="service-card">
+								<div class="service-card-image">
+									<img src="img/courses/courses-2.png"
+										alt="Hair Styling">
+								</div>
+								<div class="service-card-body">
+									<div class="service-header">
+										<div class="service-icon">
+											<i class="fas fa-cut"></i>
+										</div>
+										<h3 class="service-title">Hair
+											Styling
+										</h3>
+									</div>
+									<p class="service-description">Transform
+										your look with our expert hair styling
+										services.
+									</p>
+									<ul class="service-features">
+										<li>Professional Hair Care</li>
+										<li>Latest Styling Techniques</li>
+										<li>Quality Products</li>
+									</ul>
+									<div class="service-price">
+										<span class="price">₹1,499</span>
+										<a href="#" class="book-now"
+											onclick="openBookingModal(); return false;">
+										Book Now <i
+											class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Service 3 -->
+						<div class="swiper-slide">
+							<div class="service-card">
+								<div class="service-card-image">
+									<img src="img/courses/courses-3.png"
+										alt="Facial Treatment">
+								</div>
+								<div class="service-card-body">
+									<div class="service-header">
+										<div class="service-icon">
+											<i class="fas fa-spa"></i>
+										</div>
+										<h3 class="service-title">Facial
+											Treatments
+										</h3>
+									</div>
+									<p class="service-description">Revitalize
+										your skin with our premium
+										treatments.
+									</p>
+									<ul class="service-features">
+										<li>Deep Cleansing</li>
+										<li>Anti-Aging</li>
+										<li>Skin Brightening</li>
+									</ul>
+									<div class="service-price">
+										<span class="price">₹1,299</span>
+										<a href="#" class="book-now"
+											onclick="openBookingModal(); return false;">
+										Book Now <i
+											class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Service 4 -->
+						<div class="swiper-slide">
+							<div class="service-card">
+								<div class="service-card-image">
+									<img src="img/courses/courses-4.png"
+										alt="Nail Care">
+								</div>
+								<div class="service-card-body">
+									<div class="service-header">
+										<div class="service-icon">
+											<i class="fas fa-hand-sparkles"></i>
+										</div>
+										<h3 class="service-title">Nail Care</h3>
+									</div>
+									<p class="service-description">Professional
+										nail care and artistic designs.
+									</p>
+									<ul class="service-features">
+										<li>Manicure & Pedicure</li>
+										<li>Nail Art</li>
+										<li>Gel Extensions</li>
+									</ul>
+									<div class="service-price">
+										<span class="price">₹899</span>
+										<a href="#" class="book-now"
+											onclick="openBookingModal(); return false;">
+										Book Now <i
+											class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Service 5 -->
+						<div class="swiper-slide">
+							<div class="service-card">
+								<div class="service-card-image">
+									<img src="img/courses/courses-5.png"
+										alt="Party Makeup">
+								</div>
+								<div class="service-card-body">
+									<div class="service-header">
+										<div class="service-icon">
+											<i class="fas fa-magic"></i>
+										</div>
+										<h3 class="service-title">Party
+											Makeup
+										</h3>
+									</div>
+									<p class="service-description">Get stunning
+										makeup looks for any occasion.
+									</p>
+									<ul class="service-features">
+										<li>Glamorous Looks</li>
+										<li>HD Makeup</li>
+										<li>Long-lasting</li>
+									</ul>
+									<div class="service-price">
+										<span class="price">₹1,799</span>
+										<a href="#" class="book-now"
+											onclick="openBookingModal(); return false;">
+										Book Now <i
+											class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Service 6 -->
+						<div class="swiper-slide">
+							<div class="service-card">
+								<div class="service-card-image">
+									<img src="img/courses/courses-6.png"
+										alt="Hair Color">
+								</div>
+								<div class="service-card-body">
+									<div class="service-header">
+										<div class="service-icon">
+											<i class="fas fa-palette"></i>
+										</div>
+										<h3 class="service-title">Hair
+											Color
+										</h3>
+									</div>
+									<p class="service-description">Professional
+										hair coloring and highlights.
+									</p>
+									<ul class="service-features">
+										<li>Professional Coloring</li>
+										<li>Highlights & Lowlights</li>
+										<li>Color Protection</li>
+									</ul>
+									<div class="service-price">
+										<span class="price">₹2,499</span>
+										<a href="#" class="book-now"
+											onclick="openBookingModal(); return false;">
+										Book Now <i
+											class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Service 7 -->
+						<div class="swiper-slide">
+							<div class="service-card">
+								<div class="service-card-image">
+									<img src="img/courses/courses-7.png"
+										alt="Beauty Course">
+								</div>
+								<div class="service-card-body">
+									<div class="service-header">
+										<div class="service-icon">
+											<i
+												class="fas fa-graduation-cap"></i>
+										</div>
+										<h3 class="service-title">Beauty
+											Course
+										</h3>
+									</div>
+									<p class="service-description">Learn
+										professional beauty techniques.
+									</p>
+									<ul class="service-features">
+										<li>Professional Training</li>
+										<li>Certification</li>
+										<li>Hands-on Practice</li>
+									</ul>
+									<div class="service-price">
+										<span class="price">₹15,999</span>
+										<a href="#" class="book-now"
+											onclick="openBookingModal(); return false;">
+										Book Now <i
+											class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+			    // Initialize Services Swiper
+			    new Swiper('.services-swiper', {
+			        slidesPerView: 1,
+			        spaceBetween: 30,
+			        loop: true,
+			        autoplay: {
+			            delay: 2000,
+			            disableOnInteraction: false,
+			        },
+			        pagination: {
+			            el: '.swiper-pagination',
+			            clickable: true,
+			        },
+			        navigation: {
+			            nextEl: '.swiper-button-next',
+			            prevEl: '.swiper-button-prev',
+			        },
+			        breakpoints: {
+			            640: {
+			                slidesPerView: 1,
+			            },
+			            768: {
+			                slidesPerView: 2,
+			            },
+			            1024: {
+			                slidesPerView: 3,
+			            }
+			        }
+			    });
+			
+			    // Initialize Trending Slider
+			    var TrandingSlider = new Swiper('.tranding-slider', {
+			        effect: 'coverflow',
+			        grabCursor: true,
+			        centeredSlides: true,
+			        loop: true,
+			        slidesPerView: 'auto',
+			        autoplay: {
+			            delay: 2000,
+			            disableOnInteraction: false,
+			        },
+			        coverflowEffect: {
+			            rotate: 0,
+			            stretch: 0,
+			            depth: 100,
+			            modifier: 2.5,
+			        },
+			        pagination: {
+			            el: '.swiper-pagination',
+			            clickable: true,
+			            dynamicBullets: true
+			        }
+			    });
+			
+			    // Initialize Beauty Tips Slider
+			    var BeautyTipsSlider = new Swiper('.beauty-tips-slider', {
+			        effect: 'coverflow',
+			        grabCursor: true,
+			        centeredSlides: true,
+			        loop: true,
+			        slidesPerView: 'auto',
+			        autoplay: {
+			            delay: 2000,
+			            disableOnInteraction: false,
+			        },
+			        coverflowEffect: {
+			            rotate: 0,
+			            stretch: 0,
+			            depth: 100,
+			            modifier: 2.5,
+			        },
+			        pagination: {
+			            el: '.beauty-tips-slider-control .swiper-pagination',
+			            clickable: true,
+			            dynamicBullets: true
+			        }
+			    });
+
+
+			});
+			
+			        // Beauty Tip Stats Management
+			    class BeautyTipStats {
+			        constructor() {
+			            this.storageKey = 'beautyTipStats';
+			            this.likedTipsKey = 'likedTips';
+			            this.viewedTipsKey = 'viewedTips';
+			            this.init();
+			        }
+			
+			        init() {
+			            this.loadStats();
+			            this.setupEventListeners();
+			            this.updateDisplay();
+			        }
+			
+			        loadStats() {
+			            // Load stats from localStorage or use defaults
+			            const storedStats = localStorage.getItem(this.storageKey);
+			            this.stats = storedStats ? JSON.parse(storedStats) : {
+			                skincare: { views: 2500, likes: 180 },
+			                haircare: { views: 1800, likes: 142 },
+			                makeup: { views: 3200, likes: 256 },
+			                nailart: { views: 1500, likes: 98 },
+			                antiaging: { views: 2100, likes: 167 },
+			                bridal: { views: 4200, likes: 312 },
+			                seasonal: { views: 1900, likes: 134 }
+			            };
+			
+			            // Load liked tips
+			            const storedLikes = localStorage.getItem(this.likedTipsKey);
+			            this.likedTips = storedLikes ? JSON.parse(storedLikes) : {};
+			
+			            // Load viewed tips
+			            const storedViews = localStorage.getItem(this.viewedTipsKey);
+			            this.viewedTips = storedViews ? JSON.parse(storedViews) : {};
+			        }
+			
+			        saveStats() {
+			            localStorage.setItem(this.storageKey, JSON.stringify(this.stats));
+			            localStorage.setItem(this.likedTipsKey, JSON.stringify(this.likedTips));
+			            localStorage.setItem(this.viewedTipsKey, JSON.stringify(this.viewedTips));
+			        }
+			
+			        formatNumber(num) {
+			            if (num >= 1000) {
+			                return (num / 1000).toFixed(1) + 'k';
+			            }
+			            return num.toString();
+			        }
+			
+			        incrementViews(tipId) {
+			            // Always increment views (remove the session restriction)
+			            this.stats[tipId].views++;
+			            this.viewedTips[tipId] = true;
+			            this.saveStats();
+			            this.updateDisplay();
+			            
+			            // Add visual feedback
+			            const viewCounter = document.querySelector(`[data-tip-id="${tipId}"].view-counter`);
+			            if (viewCounter) {
+			                const eyeIcon = viewCounter.querySelector('i');
+			                eyeIcon.style.transform = 'scale(1.2)';
+			                eyeIcon.style.color = '#2A4E57';
+			                setTimeout(() => {
+			                    eyeIcon.style.transform = 'scale(1)';
+			                    eyeIcon.style.color = 'var(--primary)';
+			                }, 300);
+			            }
+			        }
+			
+			        toggleLike(tipId) {
+			            if (this.likedTips[tipId]) {
+			                this.stats[tipId].likes--;
+			                delete this.likedTips[tipId];
+			            } else {
+			                this.stats[tipId].likes++;
+			                this.likedTips[tipId] = true;
+			            }
+			            this.saveStats();
+			            this.updateDisplay();
+			        }
+			
+			        setupEventListeners() {
+			            // Setup like button listeners
+			            document.querySelectorAll('.like-counter').forEach(counter => {
+			                counter.addEventListener('click', (e) => {
+			                    e.preventDefault();
+			                    const tipId = counter.getAttribute('data-tip-id');
+			                    this.toggleLike(tipId);
+			                    
+			                    // Add visual feedback
+			                    const heart = counter.querySelector('i');
+			                    heart.style.transform = 'scale(1.3)';
+			                    heart.style.color = this.likedTips[tipId] ? '#ff6b6b' : '#666';
+			                    setTimeout(() => {
+			                        heart.style.transform = 'scale(1)';
+			                    }, 200);
+			                });
+			            });
+			
+			            // Setup view counter click listeners
+			            document.querySelectorAll('.view-counter').forEach(counter => {
+			                counter.addEventListener('click', (e) => {
+			                    e.preventDefault();
+			                    const tipId = counter.getAttribute('data-tip-id');
+			                    this.incrementViews(tipId);
+			                });
+			            });
+			
+			            // Setup view tracking for modal opens
+			            document.querySelectorAll('.beauty-tip-btn').forEach(btn => {
+			                btn.addEventListener('click', (e) => {
+			                    // Extract tipId from the onclick attribute
+			                    const onclickAttr = btn.getAttribute('onclick');
+			                    const match = onclickAttr.match(/openBeautyTipModal\('([^']+)'\)/);
+			                    if (match) {
+			                        const tipId = match[1];
+			                        this.incrementViews(tipId);
+			                    }
+			                });
+			            });
+			        }
+			
+			        updateDisplay() {
+			            // Update view counts
+			            document.querySelectorAll('.view-counter').forEach(counter => {
+			                const tipId = counter.getAttribute('data-tip-id');
+			                const countSpan = counter.querySelector('.view-count');
+			                countSpan.textContent = this.formatNumber(this.stats[tipId].views);
+			            });
+			
+			            // Update like counts and styles
+			            document.querySelectorAll('.like-counter').forEach(counter => {
+			                const tipId = counter.getAttribute('data-tip-id');
+			                const countSpan = counter.querySelector('.like-count');
+			                const heart = counter.querySelector('i');
+			                
+			                countSpan.textContent = this.stats[tipId].likes;
+			                
+			                // Update heart color based on liked state
+			                if (this.likedTips[tipId]) {
+			                    heart.style.color = '#ff6b6b';
+			                } else {
+			                    heart.style.color = '#666';
+			                }
+			            });
+			        }
+			    }
+			
+			    // Initialize stats when page loads
+			    let beautyTipStats;
+			    document.addEventListener('DOMContentLoaded', function() {
+			        beautyTipStats = new BeautyTipStats();
+			    });
+			
+			    // Beauty Tip Modal Function
+			    function openBeautyTipModal(tipType) {
+			        // Increment view count when modal is opened
+			        if (beautyTipStats) {
+			            beautyTipStats.incrementViews(tipType);
+			        }
+			
+			        const tipContent = {
+			            skincare: {
+			                title: "Summer Skincare Tips",
+			                content: `
+			                    <h3>10 Essential Summer Skincare Tips</h3>
+			                    <p>Discover the secrets to maintaining healthy, glowing skin during the hot summer months with our expert-approved skincare routine.</p>
+			                    <h4>Key Tips:</h4>
+			                    <ul>
+			                        <li><strong>Sun Protection:</strong> Use SPF 30+ sunscreen daily, even on cloudy days</li>
+			                        <li><strong>Hydration:</strong> Drink 8-10 glasses of water daily for skin hydration</li>
+			                        <li><strong>Lightweight Products:</strong> Switch to gel-based moisturizers</li>
+			                        <li><strong>Antioxidants:</strong> Include Vitamin C serum in your routine</li>
+			                        <li><strong>Exfoliation:</strong> Gentle exfoliation 2-3 times per week</li>
+			                    </ul>
+			                    <h4>Recommended Products:</h4>
+			                    <ul>
+			                        <li>Broad-spectrum sunscreen</li>
+			                        <li>Vitamin C serum</li>
+			                        <li>Hyaluronic acid moisturizer</li>
+			                        <li>Gentle cleanser</li>
+			                    </ul>
+			                `
+			            },
+			        haircare: {
+			            title: "Natural Hair Care Remedies",
+			            content: `
+			                <h3>Natural Hair Care Remedies at Home</h3>
+			                <p>Transform your hair care routine with these effective natural remedies using ingredients from your kitchen pantry.</p>
+			                <h4>DIY Hair Masks:</h4>
+			                <ul>
+			                    <li><strong>Coconut Oil Mask:</strong> Apply warm coconut oil, leave for 2 hours, wash</li>
+			                    <li><strong>Egg Mask:</strong> Mix 2 eggs with olive oil, apply for 30 minutes</li>
+			                    <li><strong>Banana Mask:</strong> Blend banana with honey, apply for 1 hour</li>
+			                    <li><strong>Avocado Mask:</strong> Mash avocado with olive oil, apply for 45 minutes</li>
+			                </ul>
+			                <h4>Natural Oils Benefits:</h4>
+			                <ul>
+			                    <li>Coconut oil for deep conditioning</li>
+			                    <li>Argan oil for frizz control</li>
+			                    <li>Jojoba oil for scalp health</li>
+			                    <li>Castor oil for hair growth</li>
+			                </ul>
+			            `
+			        },
+			        makeup: {
+			            title: "5-Minute Professional Makeup Guide",
+			            content: `
+			                <h3>5-Minute Professional Makeup Guide</h3>
+			                <p>Master the art of quick and flawless makeup application with our professional tips and techniques.</p>
+			                <h4>Quick Routine Steps:</h4>
+			                <ol>
+			                    <li><strong>Prime (30 seconds):</strong> Apply primer for smooth base</li>
+			                    <li><strong>Foundation (1 minute):</strong> Use BB cream or light foundation</li>
+			                    <li><strong>Conceal (30 seconds):</strong> Cover under-eye circles</li>
+			                    <li><strong>Powder (30 seconds):</strong> Set with translucent powder</li>
+			                    <li><strong>Blush (30 seconds):</strong> Add natural flush</li>
+			                    <li><strong>Mascara (1 minute):</strong> Define lashes</li>
+			                    <li><strong>Lipstick (30 seconds):</strong> Complete the look</li>
+			                </ol>
+			                <h4>Pro Tips:</h4>
+			                <ul>
+			                    <li>Use multi-purpose products</li>
+			                    <li>Keep essentials in one place</li>
+			                    <li>Practice the routine daily</li>
+			                    <li>Invest in quality brushes</li>
+			                </ul>
+			            `
+			        },
+			        nailart: {
+			            title: "Trending Nail Art Designs 2024",
+			            content: `
+			                <h3>Trending Nail Art Designs 2024</h3>
+			                <p>Explore the latest nail art trends and learn how to create stunning designs at home with our step-by-step guide.</p>
+			                <h4>2024 Trends:</h4>
+			                <ul>
+			                    <li><strong>Minimalist French:</strong> Clean, simple designs</li>
+			                    <li><strong>Geometric Patterns:</strong> Sharp lines and shapes</li>
+			                    <li><strong>Negative Space:</strong> Strategic bare nail areas</li>
+			                    <li><strong>Metallic Accents:</strong> Gold and silver details</li>
+			                    <li><strong>Pastel Ombre:</strong> Soft color transitions</li>
+			                </ul>
+			                <h4>DIY Techniques:</h4>
+			                <ul>
+			                    <li>Use striping tape for clean lines</li>
+			                    <li>Apply nail vinyls for patterns</li>
+			                    <li>Use dotting tools for designs</li>
+			                    <li>Layer colors for depth</li>
+			                </ul>
+			            `
+			        },
+			        antiaging: {
+			            title: "Anti-Aging Secrets",
+			            content: `
+			                <h3>Proven Anti-Aging Techniques</h3>
+			                <p>Discover proven anti-aging techniques and products that help maintain youthful, radiant skin at any age.</p>
+			                <h4>Natural Anti-Aging Methods:</h4>
+			                <ul>
+			                    <li><strong>Retinol:</strong> Use retinol products for cell turnover</li>
+			                    <li><strong>Peptides:</strong> Include peptide serums for firming</li>
+			                    <li><strong>Hyaluronic Acid:</strong> Maintain skin hydration</li>
+			                    <li><strong>Vitamin C:</strong> Brighten and protect skin</li>
+			                    <li><strong>SPF:</strong> Daily sun protection is crucial</li>
+			                </ul>
+			                <h4>Lifestyle Tips:</h4>
+			                <ul>
+			                    <li>Get 7-8 hours of sleep</li>
+			                    <li>Exercise regularly</li>
+			                    <li>Eat antioxidant-rich foods</li>
+			                    <li>Stay hydrated</li>
+			                    <li>Manage stress levels</li>
+			                </ul>
+			            `
+			        },
+			        bridal: {
+			            title: "Bridal Beauty Guide",
+			            content: `
+			                <h3>Complete Bridal Beauty Guide</h3>
+			                <p>Complete guide to achieving the perfect bridal look with professional tips and preparation timeline.</p>
+			                <h4>Pre-Wedding Timeline:</h4>
+			                <ul>
+			                    <li><strong>6 Months Before:</strong> Start skincare routine</li>
+			                    <li><strong>3 Months Before:</strong> Hair treatments and trials</li>
+			                    <li><strong>1 Month Before:</strong> Final makeup trials</li>
+			                    <li><strong>1 Week Before:</strong> Final facial and waxing</li>
+			                    <li><strong>Day Before:</strong> Light facial and hair wash</li>
+			                </ul>
+			                <h4>Bridal Makeup Tips:</h4>
+			                <ul>
+			                    <li>Use long-lasting foundation</li>
+			                    <li>Apply waterproof mascara</li>
+			                    <li>Choose matte lipsticks</li>
+			                    <li>Set makeup with powder</li>
+			                    <li>Keep touch-up kit ready</li>
+			                </ul>
+			            `
+			        },
+			        seasonal: {
+			            title: "Seasonal Beauty Guide",
+			            content: `
+			                <h3>Adapt Your Beauty Routine to Seasons</h3>
+			                <p>Adapt your beauty routine to different seasons with our expert tips for year-round radiance.</p>
+			                <h4>Seasonal Skincare:</h4>
+			                <ul>
+			                    <li><strong>Spring:</strong> Light moisturizers, gentle exfoliation</li>
+			                    <li><strong>Summer:</strong> Heavy SPF, gel moisturizers</li>
+			                    <li><strong>Fall:</strong> Rich moisturizers, vitamin C</li>
+			                    <li><strong>Winter:</strong> Heavy creams, facial oils</li>
+			                </ul>
+			                <h4>Weather Protection:</h4>
+			                <ul>
+			                    <li>Humidity: Use mattifying products</li>
+			                    <li>Dry Air: Increase hydration</li>
+			                    <li>Cold: Protect with barrier creams</li>
+			                    <li>Heat: Use cooling products</li>
+			                </ul>
+			            `
+			        }
+			    };
+			
+			    const tip = tipContent[tipType];
+			    if (tip) {
+			        Swal.fire({
+			            title: tip.title,
+			            html: tip.content,
+			            width: '600px',
+			            showCloseButton: true,
+			            showConfirmButton: false,
+			            customClass: {
+			                popup: 'beauty-tip-modal',
+			                content: 'beauty-tip-content'
+			            }
+			        });
+			    }
+			}
+		</script>
+
+		<!-- Price Comparison -->
+		<section class="price-comparison py-5 " data-aos="fade-up">
+			<div class="container section-alt odd">
+				<div class="section-header text-center mb-5" data-cur="cursor">
+					<h6 class="text-primary text-uppercase fw-bold mb-2" data-cur="cursor">Our Packages</h6>
+					<h2 class="display-5 fw-bold mb-3" data-cur="cursor">Choose Your Beauty Package</h2>
+					<p class="lead text-muted mt-3" data-cur="cursor">Select the perfect package that suits your needs</p>
+				</div>
+				<div class="row g-4 justify-content-center">
+					<!-- Basic Package -->
+					<div class="col-lg-4 col-md-6">
+						<div class="price-card">
+							<div class="price-header">
+								<h3>Basic Beauty</h3>
+								<div class="price">
+									<span class="currency">₹</span>
+									<span class="amount">1,499</span>
+									<span class="duration">/month</span>
+								</div>
+							</div>
+							<div class="price-features">
+								<ul>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Basic Facial Treatment
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Hair Spa
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Basic Manicure
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Threading
+									</li>
+								</ul>
+							</div>
+							<div class="price-footer">
+								<a href="contact.html"
+									class="btn btn-outline-dark btn-lg rounded-pill w-100">Choose
+								Plan</a>
+							</div>
+						</div>
+					</div>
+					<!-- Premium Package -->
+					<div class="col-lg-4 col-md-6">
+						<div class="price-card featured">
+							<div class="featured-tag">Most Popular</div>
+							<div class="price-header">
+								<h3>Premium Beauty</h3>
+								<div class="price">
+									<span class="currency">₹</span>
+									<span class="amount">2,999</span>
+									<span class="duration">/month</span>
+								</div>
+							</div>
+							<div class="price-features">
+								<ul>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										All Basic Features
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Premium Facial
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Hair Color & Style
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Gel Manicure & Pedicure
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Party Makeup
+									</li>
+								</ul>
+							</div>
+							<div class="price-footer">
+								<a href="contact.html"
+									class="btn btn-primary btn-lg rounded-pill w-100">Choose
+								Plan</a>
+							</div>
+						</div>
+					</div>
+					<!-- Luxury Package -->
+					<div class="col-lg-4 col-md-6">
+						<div class="price-card">
+							<div class="price-header">
+								<h3>Luxury Beauty</h3>
+								<div class="price">
+									<span class="currency">₹</span>
+									<span class="amount">4,999</span>
+									<span class="duration">/month</span>
+								</div>
+							</div>
+							<div class="price-features">
+								<ul>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										All Premium Features
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Gold Facial
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Keratin Treatment
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Bridal Makeup
+									</li>
+									<li>
+										<svg viewBox="0 0 24 24" width="24"
+											height="24" stroke="currentColor"
+											stroke-width="2" fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline
+												points="20 6 9 17 4 12"></polyline>
+										</svg>
+										Priority Booking
+									</li>
+								</ul>
+							</div>
+							<div class="price-footer">
+								<a href="contact.html"
+									class="btn btn-outline-dark btn-lg rounded-pill w-100">Choose
+								Plan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Why Choose Us -->
+		<section class="why-choose-us py-5" data-aos="fade-up">
+			<div class="container section-alt even">
+				<div class="section-header text-center mb-5" data-cur="cursor">
+					<h6 class="text-primary text-uppercase fw-bold mb-2" data-cur="cursor">Our Advantages</h6>
+					<h2 class="display-5 fw-bold mb-3" data-cur="cursor">Why Choose Us</h2>
+					<p class="lead text-muted mt-3" data-cur="cursor">Experience the difference with our premium services</p>
+				</div>
+				<div class="advantages-grid">
+					<div class="advantage-item" data-aos="fade-up" data-aos-delay="100">
+						<div class="advantage-icon">
+							<div class="icon-circle">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24" width="48" height="48"
+									fill="none" stroke="currentColor"
+									stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round">
+									<circle cx="12" cy="8" r="7" />
+									<polyline
+										points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+								</svg>
+							</div>
+							<div class="icon-glow"></div>
+						</div>
+						<div class="advantage-content">
+							<h3>Expert Team</h3>
+							<p>Internationally certified professionals with years of expertise and continuous training.</p>
+							<ul class="advantage-list">
+								<li>Certified staff</li>
+								<li>Skill upgradation</li>
+								<li>Training programs</li>
+							</ul>
+						</div>
+					</div>
+					<div class="advantage-item" data-aos="fade-up" data-aos-delay="200">
+						<div class="advantage-icon">
+							<div class="icon-circle">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24" width="48" height="48"
+									fill="none" stroke="currentColor"
+									stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round">
+									<path
+										d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+								</svg>
+							</div>
+							<div class="icon-glow"></div>
+						</div>
+						<div class="advantage-content">
+							<h3>Premium Products</h3>
+							<p>Highest quality beauty products from renowned international brands for safe treatments.</p>
+							<ul class="advantage-list">
+								<li>Luxury brands</li>
+								<li>Dermatologically tested</li>
+								<li>Organic options</li>
+							</ul>
+						</div>
+					</div>
+					<div class="advantage-item" data-aos="fade-up" data-aos-delay="300">
+						<div class="advantage-icon">
+							<div class="icon-circle">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24" width="48" height="48"
+									fill="none" stroke="currentColor"
+									stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round">
+									<path
+										d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+									<line x1="7" y1="7" x2="7.01" y2="7" />
+								</svg>
+							</div>
+							<div class="icon-glow"></div>
+						</div>
+						<div class="advantage-content">
+							<h3>Best Value</h3>
+							<p>Premium quality services at competitive prices with flexible packages and rewards.</p>
+							<ul class="advantage-list">
+								<li>Competitive pricing</li>
+								<li>Loyalty rewards</li>
+								<li>Special offers</li>
+							</ul>
+						</div>
+					</div>
+					<div class="advantage-item" data-aos="fade-up" data-aos-delay="400">
+						<div class="advantage-icon">
+							<div class="icon-circle">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24" width="48" height="48"
+									fill="none" stroke="currentColor"
+									stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round">
+									<path
+										d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+								</svg>
+							</div>
+							<div class="icon-glow"></div>
+						</div>
+						<div class="advantage-content">
+							<h3>Safety First</h3>
+							<p>Your safety is our priority with highest standards of hygiene and safety protocols.</p>
+							<ul class="advantage-list">
+								<li>Sterilized equipment</li>
+								<li>Sanitized environment</li>
+								<li>Safety audits</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Gallery Preview -->
+		<section class="gallery-preview py-5 bg-light" data-aos="fade-up">
+			<div class="container section-alt odd">
+				<div class="section-header text-center mb-5" data-cur="cursor">
+					<h6 class="text-primary text-uppercase fw-bold mb-2" data-cur="cursor">Our Gallery</h6>
+					<h2 class="display-5 fw-bold mb-3" data-cur="cursor">Beautiful Transformations</h2>
+					<p class="lead text-muted mt-3" data-cur="cursor">Explore our stunning portfolio of beauty transformations</p>
+				</div>
+				
+				<!-- Image-Only Bootstrap Gallery -->
+				<div class="row g-3 g-md-2 g-sm-1">
+					<!-- Gallery Item 1 - Large -->
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="gallery-image-container">
+							<img src="img/courses/courses-1.png" class="gallery-image" alt="Bridal Makeup">
+						</div>
+					</div>
+					
+					<!-- Gallery Item 2 -->
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="gallery-image-container">
+							<img src="img/courses/courses-2.png" class="gallery-image" alt="Hair Styling">
+						</div>
+					</div>
+					
+					<!-- Gallery Item 3 - Vertical -->
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="gallery-image-container">
+							<img src="img/courses/courses-3.png" class="gallery-image" alt="Facial Treatments">
+						</div>
+					</div>
+					
+					<!-- Gallery Item 4 -->
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="gallery-image-container">
+							<img src="img/courses/courses-4.png" class="gallery-image" alt="Nail Art">
+						</div>
+					</div>
+					
+					<!-- Gallery Item 5 -->
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="gallery-image-container">
+							<img src="img/courses/courses-5.png" class="gallery-image" alt="Makeup Classes">
+						</div>
+					</div>
+					
+					<!-- Gallery Item 6 - Large -->
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="gallery-image-container">
+							<img src="img/courses/courses-6.png" class="gallery-image" alt="Beauty Services">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Testimonials -->
+		<section class="testimonials py-5" data-aos="fade-up">
+			<div class="container section-alt odd">
+				<div class="section-header text-center mb-5" data-cur="cursor">
+					<h6 class="text-primary text-uppercase fw-bold mb-2" data-cur="cursor">Testimonials</h6>
+					<h2 class="display-5 fw-bold mb-3" data-cur="cursor">What Our Clients Say</h2>
+					<p class="lead text-muted mt-3" data-cur="cursor">Real stories from our satisfied customers</p>
+				</div>
+				<div class="testimonials-grid">
+					<!-- Testimonial 1 - Purple Card -->
+					<div class="testimonial-card testimonial-card-purple">
+						<div class="testimonial-quote-icon">
+							<i class="fas fa-quote-right"></i>
+						</div>
+						<div class="testimonial-profile">
+							<div class="profile-image">
+								<img src="img/courses/courses-1.png" alt="Sarah Johnson">
+							</div>
+							<div class="profile-info">
+								<h3 class="client-name">Sarah Johnson</h3>
+								<span class="client-role">Verified Graduate</span>
+								<div class="rating-stars">★★★★★</div>
+							</div>
+						</div>
+						<div class="testimonial-main-quote">
+							<p>"I received a job offer while still enrolled, and what I learned during the course was not just current, it was ahead of industry trends. Every bit of the course was worth the investment."</p>
+						</div>
+						<div class="testimonial-detailed-text">
+							<p>"After working as an EMT for years, I was ready for a new path. I heard great things about the academy and tried the free intro session. It was exciting and engaging. Enrolling in the full course was the best decision I've made. The 12 weeks were challenging but life-changing."</p>
+						</div>
+					</div>
+
+					<!-- Testimonial 2 - Dark Blue Card -->
+					<div class="testimonial-card testimonial-card-dark">
+						<div class="testimonial-quote-icon">
+							<i class="fas fa-quote-right"></i>
+						</div>
+						<div class="testimonial-profile">
+							<div class="profile-image">
+								<img src="img/courses/courses-2.png" alt="Emily Chen">
+							</div>
+							<div class="profile-info">
+								<h3 class="client-name">Emily Chen</h3>
+								<span class="client-role">Verified Graduate</span>
+								<div class="rating-stars">★★★★★</div>
+							</div>
+						</div>
+						<div class="testimonial-main-quote">
+							<p>"The team was supportive and kept me motivated throughout."</p>
+						</div>
+						<div class="testimonial-detailed-text">
+							<p>"I started with zero beauty experience. Now I'm a mobile beautician with a major company. This course shaped my future. One of the best decisions I've made."</p>
+						</div>
+					</div>
+
+					<!-- Testimonial 3 - White Card -->
+					<div class="testimonial-card testimonial-card-dark">
+						<div class="testimonial-quote-icon">
+							<i class="fas fa-quote-right"></i>
+						</div>
+						<div class="testimonial-profile">
+							<div class="profile-image">
+								<img src="img/courses/courses-3.png" alt="Maria Garcia">
+							</div>
+							<div class="profile-info">
+								<h3 class="client-name">Maria Garcia</h3>
+								<span class="client-role">Verified Graduate</span>
+								<div class="rating-stars">★★★★★</div>
+							</div>
+						</div>
+						<div class="testimonial-main-quote">
+							<p>"A life-changing experience. Highly recommended for anyone starting a beauty career."</p>
+						</div>
+						<div class="testimonial-detailed-text">
+							<p>"Before this, I had never worked in a salon. Now I'm a senior stylist at a top-tier salon. The practical training and mentorship made all the difference."</p>
+						</div>
+					</div>
+
+					<!-- Testimonial 4 - White Card -->
+					<div class="testimonial-card testimonial-card-white">
+						<div class="testimonial-quote-icon">
+							<i class="fas fa-quote-right"></i>
+						</div>
+						<div class="testimonial-profile">
+							<div class="profile-image">
+								<img src="img/courses/courses-4.png" alt="Jessica">
+							</div>
+							<div class="profile-info">
+								<h3 class="client-name">Jessica</h3>
+								<span class="client-role">Verified Graduate</span>
+								<div class="rating-stars">★★★★★</div>
+							</div>
+						</div>
+						<div class="testimonial-main-quote">
+							<p>"An overall wonderful and rewarding journey."</p>
+						</div>
+						<div class="testimonial-detailed-text">
+							<p>"Thanks to the amazing instructors and well-structured curriculum, I now enjoy a fulfilling job doing what I love. This program helped turn my passion into a profession."</p>
+						</div>
+					</div>
+
+					<!-- Testimonial 5 - Dark Blue Card -->
+					<div class="testimonial-card testimonial-card-purple">
+						<div class="testimonial-quote-icon">
+							<i class="fas fa-quote-right"></i>
+						</div>
+						<div class="testimonial-profile">
+							<div class="profile-image">
+								<img src="img/courses/courses-5.png" alt="Amanda Wilson">
+							</div>
+							<div class="profile-info">
+								<h3 class="client-name">Amanda Wilson</h3>
+								<span class="client-role">Verified Graduate</span>
+								<div class="rating-stars">★★★★★</div>
+							</div>
+						</div>
+						<div class="testimonial-main-quote">
+							<p>"Excellent support from instructors who've taken the course themselves."</p>
+						</div>
+						<div class="testimonial-detailed-text">
+							<p>"What stood out most was how genuinely the staff cared about my progress.  The training gave me confidence to enter the beauty industry."</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Special Offers -->
+		<section class="special-offers py-5" data-aos="fade-up">
+			<div class="container section-alt even">
+				<div class="section-header text-center mb-5" data-cur="cursor">
+					<h6 class="text-primary text-uppercase fw-bold mb-2" data-cur="cursor">Limited Time</h6>
+					<h2 class="display-5 fw-bold mb-3" data-cur="cursor">Special Offers</h2>
+					<p class="lead text-muted mt-3" data-cur="cursor">Exclusive deals you don't want to miss</p>
+				</div>
+				<div class="offers-showcase">
+					<!-- Premium Facial Package -->
+					<div class="offer-spotlight" data-aos="zoom-in" data-aos-delay="100">
+						<div class="offer-content">
+							<div class="offer-badge">
+								<div class="badge-content">
+									<span class="discount">30%</span>
+									<span class="off">OFF</span>
+								</div>
+							</div>
+							<div class="offer-details">
+								<h3>Premium Facial Package</h3>
+								<div class="offer-description">
+									<p>Experience our luxurious facial treatment with premium products and expert care</p>
+									<ul class="offer-features">
+										<li>Deep Cleansing</li>
+										<li>Anti-aging Treatment</li>
+										<li>Hydration Therapy</li>
+										<li>Face Massage</li>
+									</ul>
+								</div>
+								<div class="offer-pricing">
+									<div class="price-tag">
+										<span class="original-price">₹3,000</span>
+										<span class="current-price">₹2,100</span>
+									</div>
+									<div class="offer-timer">
+										<div class="timer-label">Offer ends in:</div>
+										<div class="countdown" data-countdown="2024-07-01">
+											<span class="time-block"><span class="days">00</span>d</span>
+											<span class="time-block"><span class="hours">00</span>h</span>
+											<span class="time-block"><span class="minutes">00</span>m</span>
+											<span class="time-block"><span class="seconds">00</span>s</span>
+										</div>
+									</div>
+								</div>
+								<button class="btn btn-gradient-primary" onclick="openBookingForm()">
+									Book Now
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+										<line x1="5" y1="12" x2="19" y2="12"></line>
+										<polyline points="12 5 19 12 12 19"></polyline>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="offer-image">
+							<img src="img/courses/courses-5.png" alt="Premium Facial Package">
+						</div>
+					</div>
+
+					<!-- Hair Spa & Style Package -->
+					<div class="offer-spotlight reverse" data-aos="zoom-in" data-aos-delay="200">
+						<div class="offer-content">
+							<div class="offer-badge">
+								<div class="badge-content">
+									<span class="discount">20%</span>
+									<span class="off">OFF</span>
+								</div>
+							</div>
+							<div class="offer-details">
+								<h3>Hair Spa & Style Package</h3>
+								<div class="offer-description">
+									<p>Transform your hair with our premium spa treatment and professional styling</p>
+									<ul class="offer-features">
+										<li>Deep Conditioning</li>
+										<li>Scalp Treatment</li>
+										<li>Hair Styling</li>
+										<li>Hair Protection</li>
+									</ul>
+								</div>
+								<div class="offer-pricing">
+									<div class="price-tag">
+										<span class="original-price">₹2,500</span>
+										<span class="current-price">₹2,000</span>
+									</div>
+									<div class="offer-timer">
+										<div class="timer-label">Offer ends in:</div>
+										<div class="countdown" data-countdown="2024-06-15">
+											<span class="time-block"><span class="days">00</span>d</span>
+											<span class="time-block"><span class="hours">00</span>h</span>
+											<span class="time-block"><span class="minutes">00</span>m</span>
+											<span class="time-block"><span class="seconds">00</span>s</span>
+										</div>
+									</div>
+								</div>
+								<button class="btn btn-gradient-primary" onclick="openBookingForm()">
+									Book Now
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+										<line x1="5" y1="12" x2="19" y2="12"></line>
+										<polyline points="12 5 19 12 12 19"></polyline>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="offer-image">
+							<img src="img/courses/courses-2.png" alt="Hair Spa & Style Package">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Expert Beauty Tips & Trends -->
+		<section id="beauty-tips-trending">
+			<div class="container section-alt odd>
+				<div class="section-header text-center mb-5" data-cur="cursor">
+					<h6 class="text-primary text-uppercase fw-bold mb-2" data-cur="cursor">Latest Beauty Trends</h6>
+					<h2 class="display-5 fw-bold mb-3" data-cur="cursor">Expert Beauty Tips & Trends</h2>
+					<p class="lead text-muted mt-3" data-cur="cursor">Stay updated with the latest beauty trends and expert advice</p>
+				</div>
+				<div class="swiper beauty-tips-slider">
+					<div class="swiper-wrapper">
+						<!-- Beauty Tip 1 -->
+						<div class="swiper-slide">
+							<div class="beauty-tip-card">
+								<div class="beauty-tip-image">
+									<img src="img/courses/courses-1.png"
+										alt="Skincare Tips">
+									<div class="beauty-tip-badge">
+										<i class="fas fa-star"></i>
+										<span>Popular</span>
+									</div>
+								</div>
+								<div class="beauty-tip-body">
+									<div class="beauty-tip-header">
+										<div class="beauty-tip-icon">
+											<i class="fas fa-spa"></i>
+										</div>
+										<div class="beauty-tip-meta">
+											<h3 class="beauty-tip-title">Summer
+												Skincare Tips
+											</h3>
+											<span
+												class="beauty-tip-category">Skincare</span>
+										</div>
+									</div>
+									<p class="beauty-tip-description">Discover
+										the secrets to maintaining healthy,
+										glowing skin during the hot summer
+										months with our expert-approved skincare
+										routine.
+									</p>
+									<div class="beauty-tip-highlights">
+										<span class="highlight-tag">Sun
+										Protection</span>
+										<span
+											class="highlight-tag">Hydration</span>
+										<span
+											class="highlight-tag">Anti-Aging</span>
+									</div>
+									<div class="beauty-tip-footer">
+										<div class="beauty-tip-stats">
+											<span class="view-counter"
+												data-tip-id="skincare">
+											<i class="fas fa-eye"></i> <span
+												class="view-count">2.5k</span>
+											views
+											</span>
+											<span class="like-counter"
+												data-tip-id="skincare">
+											<i class="fas fa-heart"></i>
+											<span
+												class="like-count">180</span>
+											likes
+											</span>
+										</div>
+										<a href="#" class="beauty-tip-btn"
+											onclick="openBeautyTipModal('skincare'); return false;">
+										<span>Read Guide</span>
+										<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Beauty Tip 2 -->
+						<div class="swiper-slide">
+							<div class="beauty-tip-card">
+								<div class="beauty-tip-image">
+									<img src="img/courses/courses-2.png"
+										alt="Hair Care Tips">
+									<div class="beauty-tip-badge">
+										<i class="fas fa-fire"></i>
+										<span>Trending</span>
+									</div>
+								</div>
+								<div class="beauty-tip-body">
+									<div class="beauty-tip-header">
+										<div class="beauty-tip-icon">
+											<i class="fas fa-cut"></i>
+										</div>
+										<div class="beauty-tip-meta">
+											<h3 class="beauty-tip-title">Natural
+												Hair Care
+											</h3>
+											<span
+												class="beauty-tip-category">Hair
+											Care</span>
+										</div>
+									</div>
+									<p class="beauty-tip-description">Transform
+										your hair care routine with these
+										effective natural remedies using
+										ingredients from your kitchen
+										pantry.
+									</p>
+									<div class="beauty-tip-highlights">
+										<span class="highlight-tag">DIY
+										Masks</span>
+										<span class="highlight-tag">Natural
+										Oils</span>
+										<span class="highlight-tag">Growth
+										Tips</span>
+									</div>
+									<div class="beauty-tip-footer">
+										<div class="beauty-tip-stats">
+											<span class="view-counter"
+												data-tip-id="haircare">
+											<i class="fas fa-eye"></i> <span
+												class="view-count">1.8k</span>
+											views
+											</span>
+											<span class="like-counter"
+												data-tip-id="haircare">
+											<i class="fas fa-heart"></i>
+											<span
+												class="like-count">142</span>
+											likes
+											</span>
+										</div>
+										<a href="#" class="beauty-tip-btn"
+											onclick="openBeautyTipModal('haircare'); return false;">
+										<span>Read Guide</span>
+										<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Beauty Tip 3 -->
+						<div class="swiper-slide">
+							<div class="beauty-tip-card">
+								<div class="beauty-tip-image">
+									<img src="img/courses/courses-3.png"
+										alt="Makeup Tips">
+									<div class="beauty-tip-badge">
+										<i class="fas fa-clock"></i>
+										<span>Quick</span>
+									</div>
+								</div>
+								<div class="beauty-tip-body">
+									<div class="beauty-tip-header">
+										<div class="beauty-tip-icon">
+											<i class="fas fa-magic"></i>
+										</div>
+										<div class="beauty-tip-meta">
+											<h3 class="beauty-tip-title">Quick
+												Makeup Guide
+											</h3>
+											<span
+												class="beauty-tip-category">Makeup</span>
+										</div>
+									</div>
+									<p class="beauty-tip-description">Master the
+										art of quick and flawless makeup
+										application with our professional tips
+										and techniques.
+									</p>
+									<div class="beauty-tip-highlights">
+										<span
+											class="highlight-tag">5-Minute</span>
+										<span
+											class="highlight-tag">Professional</span>
+										<span
+											class="highlight-tag">Long-lasting</span>
+									</div>
+									<div class="beauty-tip-footer">
+										<div class="beauty-tip-stats">
+											<span class="view-counter"
+												data-tip-id="makeup">
+											<i class="fas fa-eye"></i> <span
+												class="view-count">3.2k</span>
+											views
+											</span>
+											<span class="like-counter"
+												data-tip-id="makeup">
+											<i class="fas fa-heart"></i>
+											<span
+												class="like-count">256</span>
+											likes
+											</span>
+										</div>
+										<a href="#" class="beauty-tip-btn"
+											onclick="openBeautyTipModal('makeup'); return false;">
+										<span>Read Guide</span>
+										<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Beauty Tip 4 -->
+						<div class="swiper-slide">
+							<div class="beauty-tip-card">
+								<div class="beauty-tip-image">
+									<img src="img/courses/courses-4.png"
+										alt="Nail Art Tips">
+									<div class="beauty-tip-badge">
+										<i class="fas fa-palette"></i>
+										<span>Creative</span>
+									</div>
+								</div>
+								<div class="beauty-tip-body">
+									<div class="beauty-tip-header">
+										<div class="beauty-tip-icon">
+											<i class="fas fa-hand-sparkles"></i>
+										</div>
+										<div class="beauty-tip-meta">
+											<h3 class="beauty-tip-title">Nail
+												Art Trends
+											</h3>
+											<span
+												class="beauty-tip-category">Nail
+											Art</span>
+										</div>
+									</div>
+									<p class="beauty-tip-description">Explore
+										the latest nail art trends and learn how
+										to create stunning designs at home with
+										our step-by-step guide.
+									</p>
+									<div class="beauty-tip-highlights">
+										<span class="highlight-tag">2024
+										Trends</span>
+										<span class="highlight-tag">DIY
+										Art</span>
+										<span
+											class="highlight-tag">Techniques</span>
+									</div>
+									<div class="beauty-tip-footer">
+										<div class="beauty-tip-stats">
+											<span class="view-counter"
+												data-tip-id="nailart">
+											<i class="fas fa-eye"></i> <span
+												class="view-count">1.5k</span>
+											views
+											</span>
+											<span class="like-counter"
+												data-tip-id="nailart">
+											<i class="fas fa-heart"></i>
+											<span
+												class="like-count">98</span>
+											likes
+											</span>
+										</div>
+										<a href="#" class="beauty-tip-btn"
+											onclick="openBeautyTipModal('nailart'); return false;">
+										<span>Read Guide</span>
+										<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Beauty Tip 5 -->
+						<div class="swiper-slide">
+							<div class="beauty-tip-card">
+								<div class="beauty-tip-image">
+									<img src="img/courses/courses-5.png"
+										alt="Anti-Aging Tips">
+									<div class="beauty-tip-badge">
+										<i class="fas fa-gem"></i>
+										<span>Premium</span>
+									</div>
+								</div>
+								<div class="beauty-tip-body">
+									<div class="beauty-tip-header">
+										<div class="beauty-tip-icon">
+											<i class="fas fa-heart"></i>
+										</div>
+										<div class="beauty-tip-meta">
+											<h3
+												class="beauty-tip-title">Anti-Aging
+												Secrets
+											</h3>
+											<span
+												class="beauty-tip-category">Anti-Aging</span>
+										</div>
+									</div>
+									<p class="beauty-tip-description">Discover
+										proven anti-aging techniques and
+										products that help maintain youthful,
+										radiant skin at any age.
+									</p>
+									<div class="beauty-tip-highlights">
+										<span
+											class="highlight-tag">Natural</span>
+										<span
+											class="highlight-tag">Rejuvenation</span>
+										<span
+											class="highlight-tag">Youthful</span>
+									</div>
+									<div class="beauty-tip-footer">
+										<div class="beauty-tip-stats">
+											<span class="view-counter"
+												data-tip-id="antiaging">
+											<i class="fas fa-eye"></i> <span
+												class="view-count">2.1k</span>
+											views
+											</span>
+											<span class="like-counter"
+												data-tip-id="antiaging">
+											<i class="fas fa-heart"></i>
+											<span
+												class="like-count">167</span>
+											likes
+											</span>
+										</div>
+										<a href="#" class="beauty-tip-btn"
+											onclick="openBeautyTipModal('antiaging'); return false;">
+										<span>Read Guide</span>
+										<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Beauty Tip 6 -->
+						<div class="swiper-slide">
+							<div class="beauty-tip-card">
+								<div class="beauty-tip-image">
+									<img src="img/courses/courses-6.png"
+										alt="Bridal Beauty Tips">
+									<div class="beauty-tip-badge">
+										<i class="fas fa-crown"></i>
+										<span>Special</span>
+									</div>
+								</div>
+								<div class="beauty-tip-body">
+									<div class="beauty-tip-header">
+										<div class="beauty-tip-icon">
+											<i class="fas fa-crown"></i>
+										</div>
+										<div class="beauty-tip-meta">
+											<h3 class="beauty-tip-title">Bridal
+												Beauty Guide
+											</h3>
+											<span
+												class="beauty-tip-category">Bridal</span>
+										</div>
+									</div>
+									<p class="beauty-tip-description">Complete
+										guide to achieving the perfect bridal
+										look with professional tips and
+										preparation timeline.
+									</p>
+									<div class="beauty-tip-highlights">
+										<span
+											class="highlight-tag">Pre-Wedding</span>
+										<span class="highlight-tag">Makeup
+										Tips</span>
+										<span
+											class="highlight-tag">Timeline</span>
+									</div>
+									<div class="beauty-tip-footer">
+										<div class="beauty-tip-stats">
+											<span class="view-counter"
+												data-tip-id="bridal">
+											<i class="fas fa-eye"></i> <span
+												class="view-count">4.2k</span>
+											views
+											</span>
+											<span class="like-counter"
+												data-tip-id="bridal">
+											<i class="fas fa-heart"></i>
+											<span
+												class="like-count">312</span>
+											likes
+											</span>
+										</div>
+										<a href="#" class="beauty-tip-btn"
+											onclick="openBeautyTipModal('bridal'); return false;">
+										<span>Read Guide</span>
+										<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Beauty Tip 7 -->
+						<div class="swiper-slide">
+							<div class="beauty-tip-card">
+								<div class="beauty-tip-image">
+									<img src="img/courses/courses-7.png"
+										alt="Seasonal Beauty">
+									<div class="beauty-tip-badge">
+										<i class="fas fa-leaf"></i>
+										<span>Seasonal</span>
+									</div>
+								</div>
+								<div class="beauty-tip-body">
+									<div class="beauty-tip-header">
+										<div class="beauty-tip-icon">
+											<i class="fas fa-leaf"></i>
+										</div>
+										<div class="beauty-tip-meta">
+											<h3
+												class="beauty-tip-title">Seasonal
+												Beauty
+											</h3>
+											<span
+												class="beauty-tip-category">Seasonal</span>
+										</div>
+									</div>
+									<p class="beauty-tip-description">Adapt your
+										beauty routine to different seasons with
+										our expert tips for year-round
+										radiance.
+									</p>
+									<div class="beauty-tip-highlights">
+										<span
+											class="highlight-tag">Seasonal</span>
+										<span
+											class="highlight-tag">Weather</span>
+										<span
+											class="highlight-tag">Adaptive</span>
+									</div>
+									<div class="beauty-tip-footer">
+										<div class="beauty-tip-stats">
+											<span class="view-counter"
+												data-tip-id="seasonal">
+											<i class="fas fa-eye"></i> <span
+												class="view-count">1.9k</span>
+											views
+											</span>
+											<span class="like-counter"
+												data-tip-id="seasonal">
+											<i class="fas fa-heart"></i>
+											<span
+												class="like-count">134</span>
+											likes
+											</span>
+										</div>
+										<a href="#" class="beauty-tip-btn"
+											onclick="openBeautyTipModal('seasonal'); return false;">
+										<span>Read Guide</span>
+										<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Beauty Tips End -->
+		<!-- Newsletter
+		<section class="newsletter-section py-5" data-aos="fade-up">
+			<div class="container">
+				<div class="newsletter-wrapper">
+					<div class="row align-items-center">
+						<div class="col-lg-6">
+							<div class="newsletter-content">
+								<h6
+									class="text-primary text-uppercase fw-bold mb-2">Newsletter</h6>
+								<h2 class="display-5 fw-bold mb-3">Stay
+									Beautiful, Stay Updated
+								</h2>
+								<p class="lead mb-4">Subscribe to our newsletter
+									and receive:
+								</p>
+								<ul class="newsletter-benefits">
+									<li>
+										<i class="fas fa-gift"></i>
+										<span>Exclusive beauty offers and
+										discounts</span>
+									</li>
+									<li>
+										<i class="fas fa-star"></i>
+										<span>Latest beauty tips and
+										trends</span>
+									</li>
+									<li>
+										<i class="fas fa-calendar-alt"></i>
+										<span>Early access to special
+										events</span>
+									</li>
+									<li>
+										<i class="fas fa-percent"></i>
+										<span>Special birthday rewards</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="newsletter-form-wrapper">
+								<form class="newsletter-form"
+									onsubmit="return false;">
+									<div class="form-group mb-3">
+										<label for="name"
+											class="form-label">Your Name</label>
+										<div class="input-group">
+											<span class="input-group-text"><i
+												class="fas fa-user"></i></span>
+											<input type="text"
+												class="form-control" id="name"
+												placeholder="Enter your name"
+												required>
+										</div>
+									</div>
+									<div class="form-group mb-3">
+										<label for="email"
+											class="form-label">Email
+										Address</label>
+										<div class="input-group">
+											<span class="input-group-text"><i
+												class="fas fa-envelope"></i></span>
+											<input type="email"
+												class="form-control" id="email"
+												placeholder="Enter your email"
+												required>
+										</div>
+									</div>
+									<div class="form-group mb-3">
+										<label for="interests"
+											class="form-label">Interests</label>
+										<div class="interest-checkboxes">
+											<div class="form-check">
+												<input class="form-check-input"
+													type="checkbox"
+													id="skincare">
+												<label class="form-check-label"
+													for="skincare">Skincare</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input"
+													type="checkbox" id="makeup">
+												<label class="form-check-label"
+													for="makeup">Makeup</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input"
+													type="checkbox"
+													id="haircare">
+												<label class="form-check-label"
+													for="haircare">Hair
+												Care</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input"
+													type="checkbox"
+													id="courses">
+												<label class="form-check-label"
+													for="courses">Beauty
+												Courses</label>
+											</div>
+										</div>
+									</div>
+									<button type="submit"
+										class="btn btn-primary btn-lg w-100">
+									<i class="fas fa-paper-plane me-2"></i>
+									Subscribe Now
+									</button>
+									<small
+										class="form-text text-muted mt-2 d-block text-center">
+									By subscribing, you agree to receive our
+									marketing emails. You can unsubscribe at
+									any time.
+									</small>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- Newsletter End -->
+		<!-- Social Media -->
+		<section class="social-media py-5 bg-light" data-aos="fade-up">
+			<div class="container section-alt odd">
+				<div class="section-header text-center mb-5" data-cur="cursor">
+					<h6 class="text-primary text-uppercase fw-bold mb-2" data-cur="cursor">Connect With Us</h6>
+					<h2 class="display-5 fw-bold mb-3" data-cur="cursor">Follow Us on Social Media</h2>
+					<p class="lead text-muted mt-3" data-cur="cursor">Stay updated with our latest trends and offers</p>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="social-icons-wrapper">
+							<a href="#" class="social-icon instagram">
+							<i class="fab fa-instagram"></i>
+							<span>Follow on Instagram</span>
+							</a>
+							<a href="#" class="social-icon facebook">
+							<i class="fab fa-facebook-f"></i>
+							<span>Like on Facebook</span>
+							</a>
+							<a href="#" class="social-icon twitter">
+							<i class="fab fa-twitter"></i>
+							<span>Follow on Twitter</span>
+							</a>
+							<a href="#" class="social-icon youtube">
+							<i class="fab fa-youtube"></i>
+							<span>Subscribe on YouTube</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- WhatsApp Button -->
+		<a href="https://wa.me/1234567890" class="whatsapp-button"
+			target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+				viewBox="0 0 24 24" fill="currentColor">
+				<path
+					d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z" />
+			</svg>
+			<span>Chat with us</span>
+		</a>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h3>About Us</h3>
+					<p>Sunita Beauty Salon offers premium beauty services and
+						professional training courses to help you look and feel
+						your best.
+					</p>
+				</div>
+				<div class="footer-section">
+					<h3>Quick Links</h3>
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="services.html">Services</a>
+					<a href="courses.html">Courses</a>
+					<a href="contact.html">Contact</a>
+				</div>
+				<div class="footer-section">
+					<h3>Services</h3>
+					<a href="services.html">Hair Styling</a>
+					<a href="services.html">Makeup</a>
+					<a href="services.html">Facial Treatments</a>
+					<a href="services.html">Nail Care</a>
+					<a href="services.html">Beauty Courses</a>
+				</div>
+				<div class="footer-section">
+					<h3>Contact Info</h3>
+					<p>Email: info@sunitabeauty.com</p>
+					<p>Phone: +1 234 567 890</p>
+					<p>Address: Your Location Here</p>
+					<div class="social-links">
+						<a href="#">Facebook</a>
+						<a href="#">Instagram</a>
+						<a href="#">Twitter</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2024 Sunita Beauty Salon. All rights reserved.</p>
+			</div>
+		</footer>
+		<!-- Bootstrap 5 JS -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- AOS Animation -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- Lightbox JS -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+		<!-- Swiper JS -->
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script src="css/index/index-courses.js"></script>
+		<script>
+			// Initialize Lightbox
+			lightbox.option({
+			    'resizeDuration': 200,
+			    'wrapAround': true
+			});
+		</script>
+
+	</body>
+</html>

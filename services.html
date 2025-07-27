@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Sunita Beauty Salon</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/header/style.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+     <nav>
+        <input type="checkbox" id="sidebar-active">
+        <label id="overlay" for="sidebar-active"></label>
+        <label for="sidebar-active" class="open-sidebar-button">
+            <img src="./img/icon.png" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+        </label>
+
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg>
+            </label>
+            
+            <img src="./img/icon.png" alt="" class="icon">
+            <a href="index.html" class="home-link">Home</a>
+            <a href="about.html" class="">About</a>
+            <a href="services.html" class="">Services</a>
+            <a href="courses.html" class="">Courses</a>
+            <a href="contact.html" class="">Contact</a>
+        </div>
+     </nav>
+
+    <!-- Services Hero -->
+    <section class="services-hero py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Our Services</h1>
+                    <p class="lead mb-4">Experience the ultimate in beauty and wellness with our comprehensive range of professional services.</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="img/courses/header.png" alt="Our Services" class="img-fluid rounded-3 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories -->
+    <section class="service-categories py-5" data-aos="fade-up">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Hair Services -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/courses/courses-2.png" class="card-img-top" alt="Hair Services">
+                        <div class="card-body">
+                            <h3 class="card-title">Hair Services</h3>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Haircut & Styling</span>
+                                    <span class="badge bg-dark">₹500+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Hair Color</span>
+                                    <span class="badge bg-dark">₹1500+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Hair Treatment</span>
+                                    <span class="badge bg-dark">₹2000+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Bridal Hairstyling</span>
+                                    <span class="badge bg-dark">₹3000+</span>
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-dark w-100 mt-3">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Makeup Services -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/courses/courses-3.png" class="card-img-top" alt="Makeup Services">
+                        <div class="card-body">
+                            <h3 class="card-title">Makeup Services</h3>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Party Makeup</span>
+                                    <span class="badge bg-dark">₹2000+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Bridal Makeup</span>
+                                    <span class="badge bg-dark">₹5000+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>HD Makeup</span>
+                                    <span class="badge bg-dark">₹3000+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Engagement Makeup</span>
+                                    <span class="badge bg-dark">₹4000+</span>
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-dark w-100 mt-3">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facial & Skincare -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/courses/courses-5.png" class="card-img-top" alt="Facial Services">
+                        <div class="card-body">
+                            <h3 class="card-title">Facial & Skincare</h3>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Basic Facial</span>
+                                    <span class="badge bg-dark">₹800+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Gold Facial</span>
+                                    <span class="badge bg-dark">₹2500+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Diamond Facial</span>
+                                    <span class="badge bg-dark">₹3500+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Anti-Aging Treatment</span>
+                                    <span class="badge bg-dark">₹4000+</span>
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-dark w-100 mt-3">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nail Care -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/courses/courses-4.png" class="card-img-top" alt="Nail Services">
+                        <div class="card-body">
+                            <h3 class="card-title">Nail Care</h3>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Manicure</span>
+                                    <span class="badge bg-dark">₹500+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Pedicure</span>
+                                    <span class="badge bg-dark">₹700+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Nail Art</span>
+                                    <span class="badge bg-dark">₹300+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Gel Extensions</span>
+                                    <span class="badge bg-dark">₹2000+</span>
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-dark w-100 mt-3">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Threading & Waxing -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/courses/courses-7.png" class="card-img-top" alt="Threading Services">
+                        <div class="card-body">
+                            <h3 class="card-title">Threading & Waxing</h3>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Eyebrow Threading</span>
+                                    <span class="badge bg-dark">₹50</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Full Face Threading</span>
+                                    <span class="badge bg-dark">₹150</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Full Arms Waxing</span>
+                                    <span class="badge bg-dark">₹300</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Full Legs Waxing</span>
+                                    <span class="badge bg-dark">₹500</span>
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-dark w-100 mt-3">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bridal Packages -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/courses/courses-7-1.png" class="card-img-top" alt="Bridal Services">
+                        <div class="card-body">
+                            <h3 class="card-title">Bridal Packages</h3>
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Basic Bridal</span>
+                                    <span class="badge bg-dark">₹15000+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Premium Bridal</span>
+                                    <span class="badge bg-dark">₹25000+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Luxury Bridal</span>
+                                    <span class="badge bg-dark">₹35000+</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Family Package</span>
+                                    <span class="badge bg-dark">₹50000+</span>
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-dark w-100 mt-3">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Features -->
+    <section class="service-features py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="display-4 mb-3">💫</div>
+                        <h4>Expert Staff</h4>
+                        <p>Highly trained professionals</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="display-4 mb-3">🛡️</div>
+                        <h4>Hygiene First</h4>
+                        <p>Sterilized tools & clean environment</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="display-4 mb-3">⭐</div>
+                        <h4>Premium Products</h4>
+                        <p>Top quality beauty products</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="display-4 mb-3">💝</div>
+                        <h4>Satisfaction</h4>
+                        <p>100% service guarantee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+     <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Sunita Beauty Salon offers premium beauty services and professional training courses to help you look and feel your best.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="services.html">Hair Styling</a>
+                <a href="services.html">Makeup</a>
+                <a href="services.html">Facial Treatments</a>
+                <a href="services.html">Nail Care</a>
+                <a href="services.html">Beauty Courses</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: info@sunitabeauty.com</p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Address: Your Location Here</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sunita Beauty Salon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
